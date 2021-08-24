@@ -23,6 +23,7 @@ export class ProductService {
                         .pipe(
                           delay(1500), // Fake delay!!
                           tap(console.table),
+                          shareReplay(),
                           catchError(this.handleError)
                         );
   }
