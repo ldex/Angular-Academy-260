@@ -34,7 +34,8 @@ export class ProductInsertComponent implements OnInit {
           console.log("Product saved on server with id: " + product.id);
           this.productService.initProducts(); // reset the cache!
           this.router.navigateByUrl('/products');
-        }
+        },
+        error => console.error(error)
       )
   }
 

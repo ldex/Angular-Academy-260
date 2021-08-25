@@ -4,6 +4,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ProductInsertComponent } from './product-insert/product-insert.component';
 import { ProductListComponent } from './product-list/product-list.component';
 
+// 'products' route navigates here
 const routes: Routes = [
   { path: '', component: ProductListComponent },
   { path: 'insert', component: ProductInsertComponent },
