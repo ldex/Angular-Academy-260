@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from "@angular/common/http";
-import { ProductsModule } from './products/products.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    ProductsModule,
     SharedModule,
     AppRoutingModule
   ],
